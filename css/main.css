@@ -101,7 +101,7 @@ span {
   padding: 10px; }
 
 button {
-  width: 100px;
+  width: 130px;
   margin: 0px auto;
   background-color: #53a7ea;
   margin-top: 10px;
@@ -115,6 +115,20 @@ button {
     border: 2px solid light(#53a7ea, 30%);
     color: #53a7ea;
     border: 3px solid #53a7ea; }
+
+#btnRandom {
+  margin: 10px auto;
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: lightgreen;
+  border: 3px solid lightgreen;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s; }
+  #btnRandom:hover {
+    background-color: white;
+    color: green;
+    border: 3px solid lightgreen; }
 
 h3, h1, p {
   margin: 0px auto; }
